@@ -1,13 +1,13 @@
 # Activity-with-Factory-pattern-Student-Orientation
 
-Run following command when inside Gautam_Beri_Pragya_Vishalakshi folder:
+Run following command:
 
-ant -buildfile campusTour/src/build.xml clean
-ant -buildfile campusTour/src/build.xml all
-ant -buildfile campusTour/src/build.xml run
+ant -buildfile src/build.xml clean
+ant -buildfile src/build.xml all
+ant -buildfile src/build.xml run
 
 command to generate javadoc:
-ant -buildfile campusTour/src/build.xml javadoc
+ant -buildfile src/build.xml javadoc
 
 The javadoc generated is stored in "doc" folder at src level. The "index.html" is the file which takes from first page of Javadoc.
 
